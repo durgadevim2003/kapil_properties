@@ -1,0 +1,61 @@
+body{
+    background: #d3c6c6;
+}
+.form{
+    padding-top: 5%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+    background: #fff;
+   
+}
+.left{
+    background-color: rgb(25, 14, 57);
+    padding: 150px 98px;
+    position: absolute;
+    left: 0%;
+    height: 100%;
+}
+.left h2{
+    font-family: poppins;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.right i:hover {
+    transform: scale(1.1); /* Scale the icon on hover */
+}
+
+.form-control{
+    border: 2px solid #000;
+}
+
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
